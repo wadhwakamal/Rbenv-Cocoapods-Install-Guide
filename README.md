@@ -60,7 +60,7 @@ ruby --version
 ```
 
 ### 5. Install Bundler, if you want to install multiple gems for single project (optional)
-Bundler is like Cocoapods for Ruby to manage it's gems and dependencies.
+[Bundler](https://bundler.io/) is like Cocoapods for Ruby to manage it's gems and dependencies.
 
 ```
 gem install bundler
