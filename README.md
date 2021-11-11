@@ -95,4 +95,15 @@ Install these gems
 bundle install
 ```
 
+
+**Note:** In case `bundle install` is not working then try adding below code to your `~/.zprofile or ~/.bash_profile`
+
+This will add a path to your new gems 
+```
+export PATH="$HOME/.gem/bin/:$PATH"
+```
+
+Restart terminal and try doing `bundle install` again, it should work now
+
+
 That's it!
